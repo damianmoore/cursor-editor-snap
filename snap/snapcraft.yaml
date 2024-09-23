@@ -4,8 +4,8 @@ version: '0.40.4'
 title: Cursor
 summary: Cursor
 description: Cursor is a Code Editor Built for Programing with AI
-grade: devel # must be 'stable' to release into candidate/stable channels
-confinement: devmode # use 'strict' once you have the right plugs and slots
+grade: stable
+confinement: strict
 
 parts:
   cursor-editor:

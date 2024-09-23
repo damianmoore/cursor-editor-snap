@@ -20,9 +20,5 @@ chmod +x cursor-latest.AppImage
 # Extract the AppImage to the squashfs-root directory
 ./cursor-latest.AppImage --appimage-extract
 
-# Make the extracted files readable by non-root users (once snap is installed)
-chmod -R go+r squashfs-root/resources
-chmod go+x squashfs-root/resources
-chmod go+x squashfs-root/resources/app
-chmod go+x squashfs-root/resources/todesktopResources
-chmod go+x squashfs-root/locales
+# Make the extracted directories executable by non-root users (once snap is installed)
+find squashfs-root -type d -exec chmod +x {} \;

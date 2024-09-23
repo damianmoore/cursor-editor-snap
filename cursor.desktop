@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Cursor
+Exec=cursor --no-sandbox %U
+Terminal=false
+Type=Application
+Icon=cursor.png
+StartupWMClass=Cursor
+X-AppImage-Version=2409052yfcjagw2
+Comment=Cursor is an AI-first coding environment.
+MimeType=x-scheme-handler/cursor;
+Categories=Utility;TextEditor;Development;

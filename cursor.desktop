@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Cursor
-Exec=cursor --no-sandbox %U
+Exec=command.sh
 Terminal=false
 Type=Application
 Icon=cursor.png
